@@ -1,0 +1,49 @@
+.menu-item {
+    margin: 5px 20px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .menu-item-wrapper.active {
+    border: none
+  }
+
+  .menu-item.active {
+    border: 2px #f7ae24 solid;
+    border-radius: 30px;
+    z-index: -2;
+  }
+
+  .scroll-menu-arrow {
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .book__cover {
+      border-radius: 30px;
+      width: 184px;
+      height: 264px;
+  }
+
+  .Scroll__view {
+      max-width: 78.125vw;
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      justify-content: center;
+  }
+
+  .scrollview__header {
+      color: white;
+      font-weight: 400;
+      font-size: 25px;
+      margin-left: 50px;
+  }
+
+  .scrollview__Subheader {
+    color: #f7ae24;
+    font-weight: 700;
+    font-size: x-large;
+    margin-left: 50px;
+}
